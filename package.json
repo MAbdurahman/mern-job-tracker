@@ -1,26 +1,34 @@
 {
-  "name": "mern-job-tracker",
-  "version": "1.0.0",
-  "description": "MERN Stack application",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MAbdurahman/mern-job-tracker.git"
-  },
-  "keywords": [
-    "mongodb",
-    "express",
-    "react",
-    "and",
-    "node"
-  ],
-  "author": "Mahdi Abdurrahman",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MAbdurahman/mern-job-tracker/issues"
-  },
-  "homepage": "https://github.com/MAbdurahman/mern-job-tracker#readme"
+	"name": "mern-job-tracker",
+	"version": "1.0.0",
+	"description": "MERN Stack application",
+	"main": "server.js",
+	"scripts": {
+		"start": "node backend/server.js",
+		"server": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
+		"client": "npm start --prefix frontend",
+		"dev": "concurrently \"npm run server\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MAbdurahman/mern-job-tracker.git"
+	},
+	"keywords": [
+		"mongodb",
+		"express",
+		"react",
+		"node"
+	],
+	"author": "Mahdi Abdurrahman",
+	"license": "MIT",
+	"nodemonConfig": {
+		"delay": "2000"
+	},
+	"bugs": {
+		"url": "https://github.com/MAbdurahman/mern-job-tracker/issues"
+	},
+	"homepage": "https://github.com/MAbdurahman/mern-job-tracker#readme",
+	"devDependencies": {
+		"concurrently": "^7.0.0"
+	}
 }
