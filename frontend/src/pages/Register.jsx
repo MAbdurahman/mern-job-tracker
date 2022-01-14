@@ -7,37 +7,36 @@ const initialState = {
 	email: '',
 	password: '',
 	isMember: true,
-   showAlert: false
+	showAlert: false,
 };
 
 export default function Register() {
 	//**************** variables ****************//
 	const [values, setValues] = useState(initialState);
-   
 
 	//**************** functions ****************//
-   function Register() {
-      const [values, setValues] = useState(initialState);
-   }
-   const handleChange = (e) => {
-      console.log(e.target);
-   }
-   const toggleMember = () => {
-      console.log('toggleMember function');
-   }
-   const onSubmit = (e) => {
-      e.preventDefault();
-      console.log(e.target);
-   }
-   useEffect(() => {
-      console.log('useEffect Method')
-   }, []);
+	function Register() {
+		const [values, setValues] = useState(initialState);
+	}
+	const handleChange = e => {
+		console.log(e.target);
+	};
+	const toggleMember = () => {
+		setValues({ ...values, isMember: !values.isMember });
+	};
+	const onSubmit = e => {
+		e.preventDefault();
+		console.log(e.target);
+	};
+	useEffect(() => {
+		console.log('useEffect Method');
+	}, []);
 	return (
 		<Wrapper className='full-page'>
 			<form className='form' onSubmit={onSubmit}>
 				<Logo />
 				<h3>{values.isMember ? 'Login' : 'Register'}</h3>
-				{values.showAlert && <Alert />} 
+				{values.showAlert && <Alert />}
 				{/* name input */}
 				{!values.isMember && (
 					<FormRow
