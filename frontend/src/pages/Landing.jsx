@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Logo } from '../components';
 import MainImg from './../assets/img/main.svg';
 import Wrapper from './../assets/wrappers/LandingPage';
@@ -21,9 +22,11 @@ export default function Landing() {
 						small. Felicity now law securing breeding likewise extended
 						and. Roused either who favour why sham.
 					</p>
-               <button className="btn btn-hero">Login/Register</button>
+					<Link to='/register' className='btn btn-hero'>
+						Login/Register
+					</Link>
 				</div>
-            <img className='img main-img' src={MainImg} alt="job banner"/>
+				<img className='img main-img' src={MainImg} alt='job banner' />
 			</div>
 		</Wrapper>
 	);
