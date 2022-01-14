@@ -1,5 +1,7 @@
 //**************** imports ****************//
 import Logo from './Logo';
+import FormRow from './FormRow';
+import Alert from './Alert';
 
 
 
@@ -8,5 +10,7 @@ import Logo from './Logo';
 
 
 export {
-   Logo
+   Logo,
+   FormRow,
+   Alert
 }
