@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './../assets/img/logo.svg';
+import { Logo } from '../components';
 import MainImg from './../assets/img/main.svg';
 import Wrapper from './../assets/wrappers/LandingPage';
 
@@ -7,7 +7,7 @@ export default function Landing() {
    return (
 		<Wrapper>
 			<nav>
-				<img className='logo' src={Logo} alt='logo' />
+				<Logo />
 			</nav>
 			<div className='container page'>
 				<div className='info'>
