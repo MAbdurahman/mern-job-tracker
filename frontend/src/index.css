@@ -177,6 +177,12 @@ ul {
   font-size: 1.25rem;
   padding: 0.5rem 1.25rem;
 }
+.btn-error {
+  color: var(--white) !important;
+  text-decoration: none !important;
+  font-size: 1.25rem;
+  padding: 0.5rem 1.25rem;
+}
 .btn-danger {
   background: var(--red-light);
   color: var(--red-dark);
