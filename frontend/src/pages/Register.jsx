@@ -69,13 +69,13 @@ export default function Register() {
 					submit
 				</button>
 				<p>
-					{values.isMember ? 'Not a member yet?' : 'Already a member?'}
+					{values.isMember ? `Don't have an account?` : 'Have an account?'}
 					<button
 						type='button'
 						onClick={toggleMember}
 						className='member-btn'
 					>
-						{values.isMember ? 'Register' : 'Login'}
+						{values.isMember ? 'Register Here' : 'Login Here'}
 					</button>
 				</p>
 			</form>
