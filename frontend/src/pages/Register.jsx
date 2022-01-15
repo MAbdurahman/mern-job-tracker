@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import Wrapper from './../assets/wrappers/RegisterPage';
 import { Logo, FormRow, Alert } from './../components';
+import { useAppContext } from '../context/app_context';
+
 
 const initialState = {
 	name: '',
 	email: '',
 	password: '',
 	isMember: true,
-	showAlert: false,
 };
 
 export default function Register() {
 	//**************** variables ****************//
 	const [values, setValues] = useState(initialState);
+	const { isLoading, showAlert } = useAppContext();
 
 	//**************** functions ****************//
 	function Register() {
@@ -36,7 +38,7 @@ export default function Register() {
 			<form className='form' onSubmit={onSubmit}>
 				<Logo />
 				<h3>{values.isMember ? 'Login' : 'Register'}</h3>
-				{values.showAlert && <Alert />}
+				{showAlert && <Alert />}
 				{/* name input */}
 				{!values.isMember && (
 					<FormRow
@@ -64,7 +66,7 @@ export default function Register() {
 				<button
 					type='submit'
 					className='btn btn-block'
-					/* disabled={isLoading} */
+					disabled={isLoading} 
 				>
 					submit
 				</button>
@@ -75,7 +77,7 @@ export default function Register() {
 						onClick={toggleMember}
 						className='member-btn'
 					>
-						{values.isMember ? 'Register Here' : 'Login Here'}
+						{values.isMember ? 'Register Here!' : 'Login Here!'}
 					</button>
 				</p>
 			</form>
