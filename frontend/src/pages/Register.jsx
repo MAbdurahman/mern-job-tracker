@@ -3,7 +3,6 @@ import Wrapper from './../assets/wrappers/RegisterPage';
 import { Logo, FormRow, Alert } from './../components';
 import { useAppContext } from '../context/app_context';
 
-
 const initialState = {
 	name: '',
 	email: '',
@@ -14,21 +13,27 @@ const initialState = {
 export default function Register() {
 	//**************** variables ****************//
 	const [values, setValues] = useState(initialState);
-	const { isLoading, showAlert } = useAppContext();
+	const { isLoading, showAlert, displayAlert } = useAppContext();
 
 	//**************** functions ****************//
 	function Register() {
 		const [values, setValues] = useState(initialState);
 	}
 	const handleChange = e => {
-		console.log(e.target);
+		setValues({ ...values, [e.target.name]: e.target.value });
 	};
 	const toggleMember = () => {
 		setValues({ ...values, isMember: !values.isMember });
 	};
 	const onSubmit = e => {
 		e.preventDefault();
-		console.log(e.target);
+		const { name, email, password, isMember } = values;
+
+		if (!email || !password || (!isMember && !name)) {
+			displayAlert();
+			return;
+		}
+		console.log(values);
 	};
 	useEffect(() => {
 		console.log('useEffect Method');
@@ -66,7 +71,7 @@ export default function Register() {
 				<button
 					type='submit'
 					className='btn btn-block'
-					disabled={isLoading} 
+					disabled={isLoading}
 				>
 					submit
 				</button>
