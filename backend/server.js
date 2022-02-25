@@ -2,6 +2,7 @@
 const app = require('./app');
 const dotenv = require('dotenv');
 const colors = require('colors');
+const connectDatabase = require('./config/databaseConfig');
 
 //**************** configuration setup ****************//
 dotenv.config({ path: 'backend/config/config.env' });
@@ -9,6 +10,9 @@ dotenv.config({ path: 'backend/config/config.env' });
 //**************** variables ****************//
 const PORT = process.env.PORT || 5000;
 const NODE_ENV = process.env.NODE_ENV;
+
+//**************** connect to database ****************//
+connectDatabase();
 
 //**************** app listening ****************//
 const server = app.listen(PORT, () => {
