@@ -2,20 +2,20 @@
 
 
 
-const register = async(req, res) => {
+exports.registerUser = async(req, res) => {
    res.send('register user controller');
 }
 
-const login = async(req, res) => {
+exports.loginUser = async(req, res) => {
    res.send('login user controller');
 }
 
-const updateUser = async(req, res) => {
-   res.send('updateUser user controller');
+exports.updateUser = async(req, res) => {
+   res.send('update user controller');
 }
 
-export {
-   register,
-   login,
+/* export {
+   registerUser,
+   loginUser,
    updateUser
-}
+} */
