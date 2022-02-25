@@ -1,6 +1,7 @@
 //**************** imports ****************//
 const express = require('express');
 const notFoundMiddleware = require('./middlewares/notFound');
+const errorHandlerMiddleware = require('./middlewares/errorHandler');
 
 
 
@@ -12,10 +13,11 @@ const app = express();
 
 
 //**************** middleware****************//
-
+app.use(errorHandlerMiddleware);
 
 //**************** import all routes ****************//
 app.get('/', (req, res) => {
+   
    res.send('Welcome Job Trackers');
 });
 
