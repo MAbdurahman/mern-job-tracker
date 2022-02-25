@@ -1,5 +1,6 @@
 //**************** imports ****************//
 const express = require('express');
+const notFoundMiddleware = require('./middlewares/notFound');
 
 
 
@@ -25,10 +26,7 @@ app.get('/', (req, res) => {
 
 
 //**************** handle errors middleware ****************//
-
-
-
-
+app.use(notFoundMiddleware);
 
 
 
