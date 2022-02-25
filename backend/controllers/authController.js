@@ -13,3 +13,4 @@ exports.loginUser = async(req, res) => {
 exports.updateUser = async(req, res) => {
    res.send('update user controller');
 }
+
