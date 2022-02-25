@@ -18,6 +18,7 @@ app.use(errorHandlerMiddleware);
 
 //**************** import all routes ****************//
 const authRouter = require('./routes/authRoutes');
+const jobsRouter = require('./routes/jobRoutes');
 
 //**************** app routes ****************//
 app.get('/', (req, res) => {
@@ -25,6 +26,7 @@ app.get('/', (req, res) => {
    res.send('Welcome Job Trackers');
 });
 app.use('api/v1/auth', authRouter);
+app.use('api/v1/jobs', jobsRouter);
 
 
 
