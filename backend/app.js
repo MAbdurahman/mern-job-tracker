@@ -1,5 +1,6 @@
 //**************** imports ****************//
 const express = require('express');
+const morgan = require('morgan');
 const notFoundMiddleware = require('./middlewares/notFound');
 const errorHandlerMiddleware = require('./middlewares/errorHandler');
 
@@ -15,6 +16,9 @@ const app = express();
 //**************** middleware****************//
 app.use(express.json());
 app.use(errorHandlerMiddleware);
+if (process.env.NODE_ENV !== 'PRODUCTION') {
+	app.use(morgan('dev'));
+}
 
 //**************** import all routes ****************//
 const authRouter = require('./routes/authRoutes');
