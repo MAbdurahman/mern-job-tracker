@@ -10,6 +10,23 @@ if (process.env.NODE_ENV !== 'PRODUCTION') require('dotenv').config({ path: 'bac
 const app = express();
 
 
+//**************** middleware****************//
+
+
+//**************** import all routes ****************//
+app.get('/', (req, res) => {
+   res.send('Welcome Job Trackers');
+});
+
+
+//**************** app routes ****************//
+
+
+
+
+//**************** handle errors middleware ****************//
+
+
 
 
 
