@@ -3,6 +3,7 @@ const express = require('express');
 const morgan = require('morgan');
 const notFoundMiddleware = require('./middlewares/notFound');
 const errorHandlerMiddleware = require('./middlewares/errorHandler');
+require('express-async-errors');
 
 
 

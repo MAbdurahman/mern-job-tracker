@@ -1,16 +1,15 @@
 //**************** imports ****************//
 const User = require('./../models/user');
+const { StatusCodes } = require('http-status-codes');
 
 /*===================================================
    register a new user -> /api/v1/auth/register
 ======================================================*/
 exports.registerUser = async (req, res) => {
-	try {
+	
       const user = await User.create(req.body);
-      res.status(201).json({user});
-   } catch (error) {
-      res.status(500).json({message: 'Error occurred!'});
-   }
+      res.status(StatusCodes.CREATED).json({user});
+   
 };
 
 exports.loginUser = async (req, res) => {
