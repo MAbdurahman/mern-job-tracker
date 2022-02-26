@@ -18,6 +18,7 @@ const special_pattern = /(?=.*[-+_!@#$%^&*?])/g;
 const userSchema = new mongoose.Schema({
 	name: {
 		type: String,
+      trim: true,
 		required: [true, 'First and last name are required!'],
 		minlength: [4, 'Name must be at least 4 characters!'],
 		maxLength: [32, 'Name cannot exceed 32 characters!'],
@@ -25,12 +26,14 @@ const userSchema = new mongoose.Schema({
 	},
 	email: {
 		type: String,
+      trim: true,
 		required: [true, 'Email is required!'],
 		unique: [true, 'Email already exists!'],
-		validate: [validator.isEmail, 'Please enter a valid email address!'],
+      match: [email_pattern, 'Enter a valid email address!'],
 	},
 	password: {
 		type: String,
+      trim: true,
 		required: [true, 'Password is required!'],
 		match: [lowercase_pattern, 'Password must have a lowercase letter!'],
 		match: [uppercase_pattern, 'Password must have an uppercase letter!'],
