@@ -26,7 +26,7 @@ const authRouter = require('./routes/authRoutes');
 const jobsRouter = require('./routes/jobRoutes');
 
 //**************** app routes ****************//
-app.get('/', (req, res) => {
+app.get('/api/v1', (req, res) => {
    
    res.send('Welcome Job Trackers');
 });
