@@ -7,7 +7,7 @@ const errorHandlerMiddleware = (err, req, res, next) => {
 	};
 	if (err.name === 'ValidationError') {
 		defaultError.statusCode = StatusCodes.BAD_REQUEST;
-		// defaultError.msg = err.message
+		// defaultError.msg = err.message;
 		defaultError.msg = Object.values(err.errors)
 			.map(item => item.message)
 			.join(',');
@@ -17,7 +17,7 @@ const errorHandlerMiddleware = (err, req, res, next) => {
 		defaultError.msg = `${Object.keys(err.keyValue)} field has to be unique`;
 	}
 
-	res.status(defaultError.statusCode).json({ msg: defaultError.msg }); 
+	res.status(defaultError.statusCode).json({ msg: defaultError.msg });
 };
 
 module.exports = errorHandlerMiddleware;

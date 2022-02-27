@@ -42,7 +42,7 @@ const userSchema = new mongoose.Schema({
 			special_pattern,
 			`Password must include at least one - '-+!@#$%^&*?`,
 		],
-		match: [password_pattern, 'Password must be at least 8 characters!'],
+		match: [password_pattern, 'Password must be at least 8 characters, have lowercase, uppercase, digit, and special character!'],
 		select: false,
 	},
 	location: {
