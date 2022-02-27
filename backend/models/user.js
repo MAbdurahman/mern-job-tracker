@@ -10,6 +10,8 @@ const name_pattern =
 const email_pattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
 const password_pattern =
 	/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[-+_!@#$%^&*?]).{8,}$/i;
+
+
 const lowercase_pattern = /^(?=.*[a-z])/g;
 const uppercase_pattern = /^(?=.*[A-Z])/g;
 const digit_pattern = /^(?=.*\d{1,})/g;
@@ -18,7 +20,7 @@ const special_pattern = /(?=.*[-+_!@#$%^&*?])/g;
 const userSchema = new mongoose.Schema({
 	name: {
 		type: String,
-      trim: true,
+		trim: true,
 		required: [true, 'First and last name are required!'],
 		minlength: [4, 'Name must be at least 4 characters!'],
 		maxLength: [32, 'Name cannot exceed 32 characters!'],
@@ -26,30 +28,53 @@ const userSchema = new mongoose.Schema({
 	},
 	email: {
 		type: String,
-      trim: true,
+		trim: true,
 		required: [true, 'Email is required!'],
-		unique: [true, 'Email already exists!'],
-      match: [email_pattern, 'Enter a valid email address!'],
+		unique: true,
+		match: [email_pattern, 'Enter a valid email address!'],
 	},
 	password: {
 		type: String,
-      trim: true,
+		trim: true,
 		required: [true, 'Password is required!'],
-		match: [lowercase_pattern, 'Password must have a lowercase letter!'],
-		match: [uppercase_pattern, 'Password must have an uppercase letter!'],
-		match: [digit_pattern, 'Password must have a digit character!'],
 		match: [
-			special_pattern,
-			`Password must include at least one - '-+!@#$%^&*?`,
+			password_pattern,
+			'Password must be at least 8 characters, have lowercase, uppercase, digit, and special character!',
 		],
-		match: [password_pattern, 'Password must be at least 8 characters, have lowercase, uppercase, digit, and special character!'],
 		select: false,
 	},
 	location: {
 		type: String,
 		trim: true,
 		maxlength: 20,
-		default: 'my city',
+		default: 'some city, state',
 	},
+	role: {
+		type: String,
+		default: 'user',
+	},
+	createdAt: {
+		type: Date,
+		default: Date.now,
+	},
+	resetPasswordToken: String,
+	resetPasswordExpire: Date,
 });
+userSchema.pre('save', async function () {
+	// console.log(this.modifiedPaths())
+	if (!this.isModified('password')) return;
+	const salt = await bcrypt.genSalt(10);
+	this.password = await bcrypt.hash(this.password, salt);
+});
+
+userSchema.methods.createJWT = function () {
+	return jwt.sign({ userId: this._id }, process.env.JWT_SECRET, {
+		expiresIn: process.env.JWT_LIFETIME,
+	});
+};
+
+userSchema.methods.comparePassword = async function (candidatePassword) {
+	const isMatch = await bcrypt.compare(candidatePassword, this.password);
+	return isMatch;
+};
 module.exports = mongoose.model('User', userSchema);

@@ -20,7 +20,19 @@ exports.registerUser = async (req, res) => {
 	}
 
 	const user = await User.create({ name, email, password });
-	res.status(StatusCodes.CREATED).json({ user });
+
+      const token = user.createJWT();
+
+      res.status(StatusCodes.CREATED).json({
+			user: {
+				email: user.email,
+				name: user.name,
+                        createdAt: user.createdAt,
+				location: user.location,
+			},
+			token,
+			location: user.location,
+		});
 };
 
 exports.loginUser = async (req, res) => {
