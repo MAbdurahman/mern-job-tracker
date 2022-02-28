@@ -79,7 +79,7 @@ const AppProvider = ({ children }) => {
 			});
 		}
 		clearAlert();
-		console.log(currentUser);
+	
 	};
 
 	return (
