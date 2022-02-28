@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Wrapper from './../assets/wrappers/RegisterPage';
 import { Logo, FormRow, Alert } from './../components';
-import { useAppContext } from '../context/app_context';
+import { useAppContext } from '../context/appContext';
 
 const initialState = {
 	name: '',
