@@ -57,7 +57,7 @@ const reducer = (state, action) => {
 			jobLocation: action.payload.location,
 			showAlert: true,
 			alertType: 'success',
-			alertText: 'Successfully created user',
+			alertText: 'Successfully Created User',
 		};
 	}
 	if (action.type === REGISTER_USER_ERROR) {
@@ -66,7 +66,7 @@ const reducer = (state, action) => {
 			isLoading: false,
 			showAlert: true,
 			alertType: 'danger',
-			alertText: action.payload.message,
+			alertText: action.payload.msg,
 		};
 	}
 
