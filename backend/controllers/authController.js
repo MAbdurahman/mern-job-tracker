@@ -34,11 +34,15 @@ exports.registerUser = async (req, res) => {
 			location: user.location,
 		});
 };
-
+/*======================================================
+   login user -> /api/v1/auth/login
+======================================================*/
 exports.loginUser = async (req, res) => {
 	res.send('login user controller');
 };
-
+/*======================================================
+   update user -> /api/v1/auth/update
+======================================================*/
 exports.updateUser = async (req, res) => {
 	res.send('update user controller');
 };

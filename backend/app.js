@@ -16,7 +16,7 @@ const app = express();
 
 //**************** middleware****************//
 app.use(express.json());
-app.use(errorHandlerMiddleware);
+
 if (process.env.NODE_ENV !== 'PRODUCTION') {
 	app.use(morgan('dev'));
 }
@@ -37,7 +37,7 @@ app.use('/api/v1/jobs', jobsRouter);
 
 //**************** handle errors middleware ****************//
 app.use(notFoundMiddleware);
-
+app.use(errorHandlerMiddleware);
 
 
 
