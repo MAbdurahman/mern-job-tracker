@@ -13,7 +13,7 @@ const initialState = {
 export default function Register() {
 	//**************** variables ****************//
 	const [values, setValues] = useState(initialState);
-	const { isLoading, showAlert, displayAlert } = useAppContext();
+	const { isLoading, showAlert, displayAlert, registerUser } = useAppContext();
 
 	//**************** functions ****************//
 	function Register() {
@@ -33,10 +33,20 @@ export default function Register() {
 			displayAlert();
 			return;
 		}
-		console.log(values);
+		
+		const currentUser = {name, email, password};
+
+		if (isMember) {
+			console.log('Already a member');
+
+		} else {
+			registerUser(currentUser);
+
+		}
+		
 	};
 	useEffect(() => {
-		console.log('useEffect Method');
+		console.log('useEffect Method called');
 	}, []);
 	return (
 		<Wrapper className='full-page'>
@@ -73,7 +83,7 @@ export default function Register() {
 					className='btn btn-block'
 					disabled={isLoading}
 				>
-					submit
+					{isLoading ? 'processing...' : 'submit'}
 				</button>
 				<p>
 					{values.isMember ? `Don't have an account?` : 'Have an account?'}

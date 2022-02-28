@@ -4,9 +4,9 @@ import reducer from './reducer';
 import {
 	DISPLAY_ALERT,
 	CLEAR_ALERT,
-	SETUP_USER_BEGIN,
-	SETUP_USER_SUCCESS,
-	SETUP_USER_ERROR,
+	REGISTER_USER_BEGIN,
+	REGISTER_USER_SUCCESS,
+	REGISTER_USER_ERROR,
 	TOGGLE_SIDEBAR,
 	LOGOUT_USER,
 	UPDATE_USER_BEGIN,
@@ -35,6 +35,9 @@ const initialState = {
 	showAlert: false,
 	alertText: '',
 	alertType: '',
+	user: null,
+	token: null,
+	userLocation: ''
 };
 
 const AppContext = React.createContext();
@@ -53,11 +56,16 @@ const AppProvider = ({ children }) => {
 		}, 3500);
 	};
 
+	const registerUser = async (currentUser) => {
+		console.log(currentUser);
+	}
+
 	return (
 		<AppContext.Provider
 			value={{
 				...state,
 				displayAlert,
+				registerUser,
 			}}
 		>
 			{children}
