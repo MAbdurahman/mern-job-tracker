@@ -15,7 +15,7 @@ export default function Register() {
 	//**************** variables ****************//
 	const navigate = useNavigate();
 	const [values, setValues] = useState(initialState);
-	const { isLoading, showAlert, displayAlert, registerUser, user } = useAppContext();
+	const { isLoading, showAlert, displayAlert, registerUser, user, loginUser } = useAppContext();
 
 	//**************** functions ****************//
 	function Register() {
@@ -39,7 +39,7 @@ export default function Register() {
 		const currentUser = {name, email, password};
 
 		if (isMember) {
-			console.log('Already a member');
+			loginUser(currentUser);
 
 		} else {
 			registerUser(currentUser);
