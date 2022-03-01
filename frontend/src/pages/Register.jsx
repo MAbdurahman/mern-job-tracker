@@ -72,7 +72,7 @@ export default function Register() {
 
 				{/* email input */}
 				<FormRow
-					type='email'
+					type='text'
 					name='email'
 					value={values.email}
 					handleChange={handleChange}
