@@ -83,8 +83,6 @@ const AppProvider = ({ children }) => {
 		try {
 			const response = await axios.post('api/v1/auth/register', currentUser);
 
-			console.log(response);
-
 			const { user, token, location } = response.data;
 
 			dispatch({
@@ -114,6 +112,7 @@ const AppProvider = ({ children }) => {
 			});
 
 			addUserToLocalStorage({ user, token, location });
+			
 		} catch (error) {
 			dispatch({
 				type: LOGIN_USER_ERROR,
