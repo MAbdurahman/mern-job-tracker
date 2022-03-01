@@ -9,13 +9,13 @@ const { BadRequestError, UnauthenticatedError } = require('./../errors');
 exports.registerUser = async (req, res) => {
 	const { name, email, password } = req.body;
 
-	if (!name || !email || !password) {
+	if ( !name || !email || !password ) {
 		throw new BadRequestError('Please provide all values!');
 	}
 
 	const userAlreadyExists = await User.findOne({ email });
 
-	if (userAlreadyExists) {
+	if ( userAlreadyExists ) {
 		throw new BadRequestError('Email already exists!');
 	}
 
@@ -36,9 +36,32 @@ exports.registerUser = async (req, res) => {
 };
 /*======================================================
    login user -> /api/v1/auth/login
-======================================================*/
+=========================================================*/
 exports.loginUser = async (req, res) => {
-	res.send('login user controller');
+
+	const { email, password } = req.body;
+
+	if ( !email || !password ) {
+		throw new BadRequestError('Please provide all values!');
+	}
+
+	const user = await User.findOne({ email }).select('+password');
+
+	if ( !user ) {
+		throw new UnauthenticatedError('Invalid email or password!');
+	}
+
+	const isPasswordCorrect = await user.comparePassword(password);
+
+	if ( !isPasswordCorrect ) {
+		throw new UnauthenticatedError('Invalid email or password!');
+
+	}
+	const token = user.createJWT();
+	user.password = undefined;
+	
+	res.status(StatusCodes.OK).json({ user, token, location: user.location });
+
 };
 /*======================================================
    update user -> /api/v1/auth/update
