@@ -39,7 +39,7 @@ const userSchema = new mongoose.Schema({
 		required: [true, 'Password is required!'],
 		match: [
 			password_pattern,
-			'Password must be at least 8 characters, have lowercase, uppercase, digit, and special character!',
+			'Password -> at least 8 characters, have lowercase, uppercase, digit, and special character!',
 		],
 		select: false,
 	},
@@ -51,6 +51,7 @@ const userSchema = new mongoose.Schema({
 	},
 	role: {
 		type: String,
+		enum: ['admin', 'user'],
 		default: 'user',
 	},
 	createdAt: {

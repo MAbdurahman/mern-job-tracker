@@ -15,11 +15,11 @@ const app = express();
 
 
 //**************** middleware****************//
-app.use(express.json());
-
 if (process.env.NODE_ENV !== 'PRODUCTION') {
 	app.use(morgan('dev'));
 }
+app.use(express.json());
+
 
 //**************** import all routes ****************//
 const authRouter = require('./routes/authRoutes');
