@@ -194,6 +194,9 @@ ul {
 .btn-block {
   width: 100%;
 }
+.btn-half-block {
+  width: 50%;
+}
 .btn-hero {
   font-size: 1.25rem;
   padding: 0.5rem 1.25rem;

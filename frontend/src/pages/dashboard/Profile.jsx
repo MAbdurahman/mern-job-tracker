@@ -46,7 +46,7 @@ export default function Profile() {
 						handleChange={e => setLocation(e.target.value)}
 					/>
 					<button
-						className='btn btn-block'
+						className='btn btn-half-block'
 						type='submit'
 						disabled={isLoading}
 					>
