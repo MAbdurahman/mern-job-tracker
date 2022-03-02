@@ -10,9 +10,7 @@ export default function Navbar() {
 	const { toggleSidebar, logoutUser, user } = useAppContext();
 	//**************** functions ****************//
 	function getFirstName(userName) {
-		let name = [];
-		name = userName.split(' ');
-		return name[0];
+		return userName.split(' ')[0];
 	}
 
 	return (
