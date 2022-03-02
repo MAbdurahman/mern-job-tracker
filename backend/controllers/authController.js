@@ -67,5 +67,19 @@ exports.loginUser = async (req, res) => {
    update user -> /api/v1/auth/update
 ======================================================*/
 exports.updateUser = async (req, res) => {
-	res.send('update user controller');
+	const { email, name, location } = req.body;
+	if (!email || !name || !location) {
+		throw new BadRequestError('Please provide all values');
+	}
+	const user = await User.findOne({ _id: req.user.userId });
+
+	user.email = email;
+	user.name = name;
+	user.location = location;
+
+	await user.save();
+
+	const token = user.createJWT();
+
+	res.status(StatusCodes.OK).json({ user, token, location: user.location });
 };
