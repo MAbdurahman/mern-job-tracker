@@ -5,9 +5,41 @@ import { useAppContext } from './../context/appContext';
 import Logo from './Logo';
 
 export default function Navbar() {
-   return (
-      <Wrapper>
-         <h2>Navbar.jsx</h2>
-      </Wrapper>
-   )
-};
+	return (
+		<Wrapper>
+			<div className='nav-center'>
+				<button
+					type='button'
+					className='toggle-btn'
+					onClick={() => console.log('toggle sidebar')}
+				>
+					<FaAlignLeft />
+				</button>
+				<div>
+					<Logo />
+					<h3 className='logo-text'>dashboard</h3>
+				</div>
+				<div className='btn-container'>
+					<button
+						type='button'
+						className='btn'
+						onClick={() => console.log('show/hide drop down')}
+					>
+						<FaUserCircle />
+						Xi
+						<FaCaretDown />
+					</button>
+					<div className='dropdown show-dropdown'>
+						<button
+							type='button'
+							className='dropdown-btn'
+							onClick={() => console.log('logout user')}
+						>
+							logout
+						</button>
+					</div>
+				</div>
+			</div>
+		</Wrapper>
+	);
+}
