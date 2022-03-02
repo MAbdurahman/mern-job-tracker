@@ -47,9 +47,8 @@ const initialState = {
 	token: token,
 	userLocation: userLocation || '',
 	jobLocation: userLocation || '',
-	showSidebar: false
+	showSidebar: false,
 };
-
 
 const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
@@ -90,7 +89,6 @@ const AppProvider = ({ children }) => {
 				type: REGISTER_USER_SUCCESS,
 				payload: { user, token, location },
 			});
-
 		} catch (error) {
 			console.log(error.response);
 			dispatch({
@@ -113,7 +111,6 @@ const AppProvider = ({ children }) => {
 			});
 
 			addUserToLocalStorage({ user, token, location });
-			
 		} catch (error) {
 			dispatch({
 				type: LOGIN_USER_ERROR,
@@ -132,6 +129,10 @@ const AppProvider = ({ children }) => {
 		removeUserFromLocalStorage();
 	};
 
+	const updateUser = async currentUser => {
+		console.log(currentUser);
+	};
+
 	return (
 		<AppContext.Provider
 			value={{
@@ -140,7 +141,8 @@ const AppProvider = ({ children }) => {
 				registerUser,
 				loginUser,
 				toggleSidebar,
-				logoutUser
+				logoutUser,
+				updateUser,
 			}}
 		>
 			{children}
