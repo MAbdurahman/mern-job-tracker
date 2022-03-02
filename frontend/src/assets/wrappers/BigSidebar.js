@@ -42,8 +42,8 @@ const Wrapper = styled.aside`
     }
     .nav-link:hover {
       background: var(--grey-50);
-      padding-left: 3rem;
       color: var(--grey-900);
+      transform: scale(1.025);
     }
     .nav-link:hover .icon {
       color: var(--primary-500);
