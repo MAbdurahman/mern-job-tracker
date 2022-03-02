@@ -5,13 +5,17 @@ import { useAppContext } from './../context/appContext';
 import Logo from './Logo';
 
 export default function Navbar() {
+	//**************** variables ****************//
+	const [showLogout, setShowLogout] = useState(false);
+	const { toggleSidebar, logoutUser, user } = useAppContext();
+
 	return (
 		<Wrapper>
 			<div className='nav-center'>
 				<button
 					type='button'
 					className='toggle-btn'
-					onClick={() => console.log('toggle sidebar')}
+					onClick={toggleSidebar}
 				>
 					<FaAlignLeft />
 				</button>
@@ -23,17 +27,19 @@ export default function Navbar() {
 					<button
 						type='button'
 						className='btn'
-						onClick={() => console.log('show/hide drop down')}
+						onClick={() => setShowLogout(!showLogout)}
 					>
 						<FaUserCircle />
-						Xi
+						{user?.name}
 						<FaCaretDown />
 					</button>
-					<div className='dropdown show-dropdown'>
+					<div
+						className={showLogout ? 'dropdown show-dropdown' : 'dropdown'}
+					>
 						<button
 							type='button'
 							className='dropdown-btn'
-							onClick={() => console.log('logout user')}
+							onClick={logoutUser}
 						>
 							logout
 						</button>

@@ -48,7 +48,7 @@ exports.loginUser = async (req, res) => {
 	const user = await User.findOne({ email }).select('+password');
 
 	if ( !user ) {
-		throw new UnauthenticatedError('Invalid email or password!');
+		throw new UnauthenticatedError('Email does not exist!');
 	}
 
 	const isPasswordCorrect = await user.comparePassword(password);

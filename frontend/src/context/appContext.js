@@ -47,6 +47,7 @@ const initialState = {
 	token: token,
 	userLocation: userLocation || '',
 	jobLocation: userLocation || '',
+	showSidebar: false
 };
 
 
@@ -122,6 +123,15 @@ const AppProvider = ({ children }) => {
 		clearAlert();
 	};
 
+	const toggleSidebar = () => {
+		dispatch({ type: TOGGLE_SIDEBAR });
+	};
+
+	const logoutUser = () => {
+		dispatch({ type: LOGOUT_USER });
+		removeUserFromLocalStorage();
+	};
+
 	return (
 		<AppContext.Provider
 			value={{
@@ -129,6 +139,8 @@ const AppProvider = ({ children }) => {
 				displayAlert,
 				registerUser,
 				loginUser,
+				toggleSidebar,
+				logoutUser
 			}}
 		>
 			{children}
