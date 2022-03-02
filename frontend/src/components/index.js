@@ -1,8 +1,10 @@
 //**************** imports ****************//
-import Logo from './Logo';
-import FormRow from './FormRow';
 import Alert from './Alert';
-
+import BigSidebar from './BigSidebar';
+import FormRow from './FormRow';
+import Logo from './Logo';
+import Navbar from './Navbar';
+import SmallSidebar from './SmallSidebar';
 
 
 
@@ -10,7 +12,10 @@ import Alert from './Alert';
 
 
 export {
-   Logo,
+   Alert,
+   BigSidebar,
    FormRow,
-   Alert
+   Logo,
+   Navbar,
+   SmallSidebar
 }
