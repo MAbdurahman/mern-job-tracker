@@ -3,6 +3,7 @@ const express = require('express');
 const morgan = require('morgan');
 const notFoundMiddleware = require('./middlewares/notFound');
 const errorHandlerMiddleware = require('./middlewares/errorHandler');
+const authenticatedUser = require('./middlewares/auth');
 require('express-async-errors');
 
 
@@ -31,7 +32,7 @@ app.get('/api/v1', (req, res) => {
    res.send('Welcome Job Trackers');
 });
 app.use('/api/v1/auth', authRouter);
-app.use('/api/v1/jobs', jobsRouter);
+app.use('/api/v1/jobs', authenticatedUser, jobsRouter);
 
 
 

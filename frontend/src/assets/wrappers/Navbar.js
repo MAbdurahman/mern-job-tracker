@@ -10,6 +10,7 @@ const Wrapper = styled.nav`
     display: flex;
     align-items: center;
     width: 100px;
+    display: none;
   }
   .nav-center {
     display: flex;
