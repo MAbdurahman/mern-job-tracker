@@ -8,6 +8,12 @@ export default function Navbar() {
 	//**************** variables ****************//
 	const [showLogout, setShowLogout] = useState(false);
 	const { toggleSidebar, logoutUser, user } = useAppContext();
+	//**************** functions ****************//
+	function getFirstName(userName) {
+		let name = [];
+		name = userName.split(' ');
+		return name[0];
+	}
 
 	return (
 		<Wrapper>
@@ -30,7 +36,7 @@ export default function Navbar() {
 						onClick={() => setShowLogout(!showLogout)}
 					>
 						<FaUserCircle />
-						{user?.name}
+						{getFirstName(user?.name)}
 						<FaCaretDown />
 					</button>
 					<div
