@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 
 const location_pattern = /([A-Za-z]+(?: [A-Za-z]+)*),? ([A-Za-z]{2})/;
 
@@ -45,4 +45,4 @@ const jobSchema = new mongoose.Schema(
 	{ timestamps: true }
 );
 
-export default mongoose.model('Job', jobSchema);
+module.exports = mongoose.model('Job', jobSchema);
