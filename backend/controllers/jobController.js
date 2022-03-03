@@ -17,12 +17,16 @@ exports.createJob = async (req, res) => {
 	res.status(StatusCodes.CREATED).json({ job });
 };
 
-exports.deleteJob = async (req, res) => {
-	res.send('controller - deleteJob');
+exports.getAllJobs = async (req, res) => {
+	const jobs = await Job.find({createdBy: req.user.userId});
+	if (!jobs) {
+		throw new NotFoundError(`No Jobs For User ${req.user.name}`)
+	}
+	res.status(StatusCodes.OK).json({jobs, totalJobs: jobs.length, numOfPages: 1});
 };
 
-exports.getAllJobs = async (req, res) => {
-	res.send('controller - getAllJobs');
+exports.deleteJob = async (req, res) => {
+	res.send('controller - deleteJob');
 };
 
 exports.showStats = async (req, res) => {
