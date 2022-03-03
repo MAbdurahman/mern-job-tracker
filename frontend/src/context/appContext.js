@@ -75,7 +75,7 @@ const AppProvider = ({ children }) => {
 			return response;
 		},
 		error => {
-			// console.log(error.response)
+		
 			if (error.response.status === 401) {
 				logoutUser();
 			}
@@ -169,7 +169,9 @@ const AppProvider = ({ children }) => {
 				type: UPDATE_USER_SUCCESS,
 				payload: { user, location, token },
 			});
+			
 			addUserToLocalStorage({ user, location, token });
+
 		} catch (error) {
 			if (error.response.status !== 401) {
 				dispatch({
