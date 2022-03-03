@@ -252,7 +252,7 @@ ul {
   display: block;
   font-size: var(--smallText);
   margin-bottom: 0.5rem;
-  text-transform: capitalize;
+  text-transform: capitalize !important;
   letter-spacing: var(--letterSpacing);
 }
 .form-input,

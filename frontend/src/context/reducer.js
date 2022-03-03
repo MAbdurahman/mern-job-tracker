@@ -38,7 +38,7 @@ const reducer = (state, action) => {
 			...state,
 			showAlert: true,
 			alertType: 'danger',
-			alertText: 'Please provide all values!',
+			alertText: 'Please Provide All Values!',
 		};
 	}
 	if (action.type === CLEAR_ALERT) {
@@ -134,6 +134,50 @@ const reducer = (state, action) => {
 		};
 	}
 	if (action.type === UPDATE_USER_ERROR) {
+		return {
+			...state,
+			isLoading: false,
+			showAlert: true,
+			alertType: 'danger',
+			alertText: action.payload.msg,
+		};
+	}
+	if (action.type === HANDLE_CHANGE) {
+		return {
+			...state,
+			[action.payload.name]: action.payload.value,
+		};
+	}
+	if (action.type === CLEAR_VALUES) {
+		const initialState = {
+			isEditing: false,
+			editJobId: '',
+			position: '',
+			company: '',
+			jobLocation: state.userLocation,
+			jobType: 'full-time',
+			status: 'pending',
+		};
+
+		return {
+			...state,
+			...initialState,
+		};
+	}
+	if (action.type === CREATE_JOB_BEGIN) {
+		return { ...state, isLoading: true };
+	}
+
+	if (action.type === CREATE_JOB_SUCCESS) {
+		return {
+			...state,
+			isLoading: false,
+			showAlert: true,
+			alertType: 'success',
+			alertText: 'Successfully Created Job!',
+		};
+	}
+	if (action.type === CREATE_JOB_ERROR) {
 		return {
 			...state,
 			isLoading: false,
