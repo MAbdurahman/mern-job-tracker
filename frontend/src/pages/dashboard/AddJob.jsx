@@ -29,11 +29,11 @@ export default function AddJob() {
 	};
 	const handleSubmit = e => {
 		e.preventDefault();
-		/* if (!position || !company || !jobLocation) {
+		if (!position || !company || !jobLocation) {
 			displayAlert();
 			return;
-		} */
-      if (isEditing) {
+		}
+		if (isEditing) {
 			// editJob();
 			return;
 		}
