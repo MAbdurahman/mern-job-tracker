@@ -8,6 +8,7 @@ export default function AddJob() {
 	const {
 		isLoading,
 		isEditing,
+		editJob,
 		showAlert,
 		displayAlert,
 		position,
@@ -34,7 +35,7 @@ export default function AddJob() {
 			return;
 		}
 		if (isEditing) {
-			// editJob();
+			editJob();
 			return;
 		}
 		createJob();

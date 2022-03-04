@@ -42,14 +42,14 @@ export default function Job({
 						<Link
 							to='/add-job'
 							className='btn edit-btn'
-							// onClick={() => setEditJob(_id)}
+							onClick={() => setEditJob(_id)}
 						>
 							Edit
 						</Link>
 						<button
 							type='button'
 							className='btn delete-btn'
-							// onClick={() => deleteJob(_id)}
+							onClick={() => deleteJob(_id)}
 						>
 							Delete
 						</button>
