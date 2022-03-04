@@ -57,6 +57,7 @@ const Wrapper = styled.aside`
     }
     .active {
       color: var(--grey-900);
+      background-color: var(--grey-50);
     }
     .active .icon {
       color: var(--primary-500);
