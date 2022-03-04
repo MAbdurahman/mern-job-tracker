@@ -5,9 +5,36 @@ import Loading from './Loading';
 import Job from './Job';
 
 export default function JobsContainer() {
-   return (
-      <Wrapper>
-         <h2>JobsContainer</h2>
-      </Wrapper>
-   )
+	//**************** variables ****************//
+	const { getJobs, jobs, isLoading, page, totalJobs } = useAppContext();
+
+	//**************** functions ****************//
+	useEffect(() => {
+		getJobs();
+		// eslint-disable-next-line
+	}, [page]);
+
+   if (isLoading) {
+		return <Loading center />;
+	}
+
+	if (jobs.length === 0) {
+		return (
+			<Wrapper>
+				<h2>No jobs to display...</h2>
+			</Wrapper>
+		);
+	}
+	return (
+		<Wrapper>
+			<h5>
+				{totalJobs} job{jobs.length > 1 && 's'} found
+			</h5>
+			<div className='jobs'>
+				{jobs.map(job => {
+					return <Job key={job._id} {...job} />;
+				})}
+			</div>
+		</Wrapper>
+	);
 }
