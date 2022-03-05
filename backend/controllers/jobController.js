@@ -58,7 +58,21 @@ exports.updateJob = async (req, res) => {
 };
 
 exports.deleteJob = async (req, res) => {
-	res.send('controller - deleteJob');
+	const { id: jobId } = req.params;
+
+	const job = await Job.findOne({ _id: jobId });
+
+	if (!job) {
+		throw new NotFoundError(`No Job Found With ID: ${jobId}`);
+	}
+
+	//******** check whether user created the job ********//
+	checkPermissions(req.user, job.createdBy);
+
+	await job.remove();
+
+	res.status(StatusCodes.OK).json({ msg: 'Successfully Deleted Job!' });
+	
 };
 
 exports.showStats = async (req, res) => {
