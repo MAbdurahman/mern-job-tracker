@@ -227,7 +227,7 @@ const reducer = (state, action) => {
 			isLoading: false,
 			showAlert: true,
 			alertType: 'success',
-			alertText: 'Job Updated!',
+			alertText: 'Successfully Updated Job!',
 		};
 	}
 	if (action.type === EDIT_JOB_ERROR) {

@@ -256,14 +256,15 @@ const AppProvider = ({ children }) => {
 		try {
 			const { position, company, jobLocation, jobType, status } = state;
 			await authFetch.patch(`/jobs/${state.editJobId}`, {
-				company,
 				position,
+				company,
 				jobLocation,
 				jobType,
 				status,
 			});
 			dispatch({ type: EDIT_JOB_SUCCESS });
 			dispatch({ type: CLEAR_VALUES });
+			
 		} catch (error) {
 			if (error.response.status === 401) return;
 			dispatch({
