@@ -279,8 +279,10 @@ const AppProvider = ({ children }) => {
 		try {
 			await authFetch.delete(`/jobs/${jobId}`);
 			getJobs();
+
 		} catch (error) {
-			logoutUser();
+			console.log(`error: ${error}`)
+			// logoutUser();
 		}
 	};
 
