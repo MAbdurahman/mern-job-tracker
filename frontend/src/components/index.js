@@ -9,6 +9,8 @@ import Logo from './Logo';
 import Navbar from './Navbar';
 import SearchContainer from './SearchContainer';
 import SmallSidebar from './SmallSidebar';
+import StatsContainer from './StatsContainer';
+import ChartsContainer from './ChartsContainer';
 
 
 export {
@@ -21,5 +23,7 @@ export {
    Logo,
    Navbar,
    SearchContainer,
-   SmallSidebar
+   SmallSidebar,
+   StatsContainer,
+   ChartsContainer
 }
