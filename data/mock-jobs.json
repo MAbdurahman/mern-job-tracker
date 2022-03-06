@@ -1,0 +1,1577 @@
+[
+   {
+      "company": "Kazio",
+      "position": "Information Systems Manager",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-08-21T23:57:36Z"
+   },
+   {
+      "company": "Aivee",
+      "position": "Safety Technician IV",
+      "jobLocation": "Jefferson City, MO",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-06-14T20:02:45Z"
+   },
+   {
+      "company": "Gigabox",
+      "position": "Biostatistician I",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-05-18T22:41:45Z"
+   },
+   {
+      "company": "Topicstorm",
+      "position": "Systems Administrator III",
+      "jobLocation": "Jefferson City, MO",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-01-27T00:01:54Z"
+   },
+   {
+      "company": "Flashdog",
+      "position": "Biostatistician II",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-01-28T09:30:23Z"
+   },
+   {
+      "company": "Gabcube",
+      "position": "Sales Representative",
+      "jobLocation": "Jefferson City, MO",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-06-12T05:39:00Z"
+   },
+   {
+      "company": "Youbridge",
+      "position": "Automation Specialist III",
+      "jobLocation": "Jefferson City, MO",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-09-07T18:15:25Z"
+   },
+   {
+      "company": "Buzzshare",
+      "position": "GIS Technical Architect",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2022-01-19T18:14:46Z"
+   },
+   {
+      "company": "Gigaclub",
+      "position": "Safety Technician II",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-09-28T20:10:03Z"
+   },
+   {
+      "company": "Jayo",
+      "position": "Environmental Tech",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-01-16T03:05:13Z"
+   },
+   {
+      "company": "Digitube",
+      "position": "Biostatistician II",
+      "jobLocation": "Raleigh, NC",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-09-18T03:34:49Z"
+   },
+   {
+      "company": "Skajo",
+      "position": "Technical Writer",
+      "jobLocation": "Raleigh, NC",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-12-22T20:48:37Z"
+   },
+   {
+      "company": "Yakitri",
+      "position": "Safety Technician I",
+      "jobLocation": "Raleigh, NC",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-08-04T06:04:07Z"
+   },
+   {
+      "company": "Flipopia",
+      "position": "Design Engineer",
+      "jobLocation": "Rochester, NY",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-07-21T11:21:00Z"
+   },
+   {
+      "company": "Topiczoom",
+      "position": "Human Resources Assistant I",
+      "jobLocation": "Orange, CA",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-09-11T02:04:03Z"
+   },
+   {
+      "company": "Devpoint",
+      "position": "Internal Auditor",
+      "jobLocation": "Albany, NY",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-10-02T10:37:59Z"
+   },
+   {
+      "company": "Voolia",
+      "position": "Senior Cost Accountant",
+      "jobLocation": "Orange, CA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-01-28T06:09:28Z"
+   },
+   {
+      "company": "Gabcube",
+      "position": "Software Test Engineer III",
+      "jobLocation": "Springfield, OH",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-05-25T15:57:13Z"
+   },
+   {
+      "company": "Kimia",
+      "position": "Developer II",
+      "jobLocation": "Albany, NY",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-07-11T07:43:18Z"
+   },
+   {
+      "company": "Brainsphere",
+      "position": "Human Resources Manager",
+      "jobLocation": "Springfield, OH",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-07-22T03:16:17Z"
+   },
+   {
+      "company": "Dazzlesphere",
+      "position": "Data Coordiator",
+      "jobLocation": "Albany, NY",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-09-29T21:08:28Z"
+   },
+   {
+      "company": "Oyoloo",
+      "position": "Financial Advisor",
+      "jobLocation": "Albany, NY",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2022-02-15T20:45:45Z"
+   },
+   {
+      "company": "Brainverse",
+      "position": "Financial Advisor",
+      "jobLocation": "Philadelphia, PA",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-08-09T05:50:12Z"
+   },
+   {
+      "company": "Topiczoom",
+      "position": "Senior Financial Analyst",
+      "jobLocation": "Albany, NY",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-05-17T18:29:29Z"
+   },
+   {
+      "company": "Yozio",
+      "position": "Financial Analyst",
+      "jobLocation": "Orange, CA",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-12-20T09:58:19Z"
+   },
+   {
+      "company": "Cogilith",
+      "position": "Account Representative III",
+      "jobLocation": "Philadelphia, PA",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-09-26T11:43:41Z"
+   },
+   {
+      "company": "Tazzy",
+      "position": "Human Resources Assistant III",
+      "jobLocation": "Springfield, OH",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-11-29T06:40:09Z"
+   },
+   {
+      "company": "Jaloo",
+      "position": "Technical Writer",
+      "jobLocation": "Albany, NY",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-06-25T10:57:53Z"
+   },
+   {
+      "company": "Jabbersphere",
+      "position": "Financial Advisor",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-11-20T00:38:30Z"
+   },
+   {
+      "company": "Wikibox",
+      "position": "Account Coordinator",
+      "jobLocation": "Springfield, OH",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-08-05T17:19:46Z"
+   },
+   {
+      "company": "Tazz",
+      "position": "Database Administrator II",
+      "jobLocation": "Albany, NY",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-03-09T22:06:28Z"
+   },
+   {
+      "company": "Feedmix",
+      "position": "Biostatistician III",
+      "jobLocation": "Toledo, OH",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-10-07T22:44:36Z"
+   },
+   {
+      "company": "Fivechat",
+      "position": "Chemical Engineer",
+      "jobLocation": "Toledo, OH",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-10-26T20:35:59Z"
+   },
+   {
+      "company": "Thoughtstorm",
+      "position": "Web Designer II",
+      "jobLocation": "Philadelphia, PA",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-11-16T11:36:25Z"
+   },
+   {
+      "company": "Jaxspan",
+      "position": "Software Engineer II",
+      "jobLocation": "Springfield, OH",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-07-27T08:55:41Z"
+   },
+   {
+      "company": "Browsetype",
+      "position": "Recruiting Manager",
+      "jobLocation": "Albany, NY",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-05-13T08:52:31Z"
+   },
+   {
+      "company": "Tagtune",
+      "position": "Recruiting Manager",
+      "jobLocation": "Killeen, TX",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-12-08T09:32:57Z"
+   },
+   {
+      "company": "Meejo",
+      "position": "Legal Assistant",
+      "jobLocation": "El Paso, TX",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-12-18T18:21:38Z"
+   },
+   {
+      "company": "Bluezoom",
+      "position": "Chief Design Engineer",
+      "jobLocation": "Toledo, OH",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-09-07T09:41:20Z"
+   },
+   {
+      "company": "Trupe",
+      "position": "Senior Developer",
+      "jobLocation": "San Antonio, TX",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-10-01T17:09:18Z"
+   },
+   {
+      "company": "Fivebridge",
+      "position": "Statistician IV",
+      "jobLocation": "Austin, TX",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-05-07T06:17:37Z"
+   },
+   {
+      "company": "Gigabox",
+      "position": "Developer III",
+      "jobLocation": "Dallas, TX",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-05-31T10:06:41Z"
+   },
+   {
+      "company": "Fivechat",
+      "position": "Structural Analysis Engineer",
+      "jobLocation": "Philadelphia, PA",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-08-18T13:03:03Z"
+   },
+   {
+      "company": "Oyondu",
+      "position": "Programmer IV",
+      "jobLocation": "Houston, TX",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-03-08T16:47:57Z"
+   },
+   {
+      "company": "DabZ",
+      "position": "Environmental Specialist",
+      "jobLocation": "Corpus Christi, TX",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-02-13T10:05:29Z"
+   },
+   {
+      "company": "Tagpad",
+      "position": "Data Coordiator",
+      "jobLocation": "Dallas, TX",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-04-29T10:04:15Z"
+   },
+   {
+      "company": "Zooxo",
+      "position": "Senior Financial Analyst",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-03-05T07:42:45Z"
+   },
+   {
+      "company": "Youspan",
+      "position": "Structural Analysis Engineer",
+      "jobLocation": "Portland, OR",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-11-22T09:45:31Z"
+   },
+   {
+      "company": "Zoonder",
+      "position": "Actuary",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-12-31T11:23:51Z"
+   },
+   {
+      "company": "Kwinu",
+      "position": "Programmer Analyst III",
+      "jobLocation": "Toledo, OH",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-06-05T23:56:04Z"
+   },
+   {
+      "company": "Janyx",
+      "position": "Analog Circuit Design manager",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-07-13T14:58:49Z"
+   },
+   {
+      "company": "Riffpath",
+      "position": "Financial Analyst",
+      "jobLocation": "Toledo, OH",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-07-05T08:08:05Z"
+   },
+   {
+      "company": "Youbridge",
+      "position": "Marketing Manager",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-03-11T18:23:03Z"
+   },
+   {
+      "company": "Bubblebox",
+      "position": "Structural Engineer",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-10-29T05:29:27Z"
+   },
+   {
+      "company": "Tazzy",
+      "position": "Computer Systems Analyst III",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-11-27T02:16:48Z"
+   },
+   {
+      "company": "Blogpad",
+      "position": "Director of Sales",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-01-29T23:41:19Z"
+   },
+   {
+      "company": "Vinte",
+      "position": "Physical Therapy Assistant",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-07-08T18:10:11Z"
+   },
+   {
+      "company": "Lazzy",
+      "position": "Sales Representative",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-12-31T18:03:44Z"
+   },
+   {
+      "company": "Kimia",
+      "position": "Professor",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-07-07T10:39:45Z"
+   },
+   {
+      "company": "Jaloo",
+      "position": "Graphic Designer",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-03-30T07:46:42Z"
+   },
+   {
+      "company": "Kimia",
+      "position": "Recruiter",
+      "jobLocation": "Rochester, NY",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2022-01-05T11:26:54Z"
+   },
+   {
+      "company": "Rhyloo",
+      "position": "Human Resources Manager",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-02-04T19:26:02Z"
+   },
+   {
+      "company": "Oyondu",
+      "position": "Accountant I",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-10-30T07:01:59Z"
+   },
+   {
+      "company": "Eire",
+      "position": "Human Resources Manager",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-04-23T17:34:29Z"
+   },
+   {
+      "company": "Einti",
+      "position": "Teacher",
+      "jobLocation": "Richmond, VA",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-03-08T04:17:30Z"
+   },
+   {
+      "company": "Aimbo",
+      "position": "Research Associate",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-01-17T12:43:40Z"
+   },
+   {
+      "company": "Tagpad",
+      "position": "Safety Technician I",
+      "jobLocation": "Richmond, VA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-10-13T00:25:49Z"
+   },
+   {
+      "company": "Cogidoo",
+      "position": "Environmental Specialist",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2019-08-11T16:10:48Z"
+   },
+   {
+      "company": "Buzzbean",
+      "position": "Analog Circuit Design manager",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2022-01-16T11:44:21Z"
+   },
+   {
+      "company": "Abata",
+      "position": "Software Test Engineer IV",
+      "jobLocation": "Richmond, VA",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-07-11T08:34:28Z"
+   },
+   {
+      "company": "Vipe",
+      "position": "Recruiter",
+      "jobLocation": "Richmond, VA",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-09-28T19:11:15Z"
+   },
+   {
+      "company": "Yodoo",
+      "position": "Assistant Manager",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-05-07T19:33:32Z"
+   },
+   {
+      "company": "Centizu",
+      "position": "Quality Control Specialist",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-02-11T22:25:33Z"
+   },
+   {
+      "company": "Camido",
+      "position": "Automation Specialist III",
+      "jobLocation": "Pittsburgh, PA",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2021-06-03T10:57:15Z"
+   },
+   {
+      "company": "Digitube",
+      "position": "Graphic Designer",
+      "jobLocation": "Rochester, NY",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fd8b81c8d61c1d1e6a2b2",
+      "createdAt": "2020-09-29T12:22:18Z"
+   },
+      {
+      "company": "Einti",
+      "position": "Software Engineer III",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-10-20T06:30:25Z"
+   },
+   {
+      "company": "Youopia",
+      "position": "Database Administrator III",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-04-11T21:03:58Z"
+   },
+   {
+      "company": "Shuffletag",
+      "position": "Research Nurse",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-12-04T17:44:33Z"
+   },
+   {
+      "company": "Divape",
+      "position": "Environmental Specialist",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-05-08T22:22:16Z"
+   },
+   {
+      "company": "Blogspan",
+      "position": "Account Coordinator",
+      "jobLocation": "San Diego, CA",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-09-01T15:37:34Z"
+   },
+   {
+      "company": "Centidel",
+      "position": "Nurse Practicioner",
+      "jobLocation": "San Diego, CA",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2022-01-15T22:43:54Z"
+   },
+   {
+      "company": "Buzzdog",
+      "position": "Database Administrator III",
+      "jobLocation": "San Diego, CA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-02-11T03:09:51Z"
+   },
+   {
+      "company": "Photofeed",
+      "position": "Electrical Engineer",
+      "jobLocation": "San Diego, CA",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-09-11T05:37:11Z"
+   },
+   {
+      "company": "Tanoodle",
+      "position": "Database Administrator I",
+      "jobLocation": "Sacramento, CA",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-09-22T18:04:52Z"
+   },
+   {
+      "company": "Geba",
+      "position": "Budget/Accounting Analyst I",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-03-08T09:04:40Z"
+   },
+   {
+      "company": "Podcat",
+      "position": "Librarian",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-01-23T12:20:16Z"
+   },
+   {
+      "company": "Wordpedia",
+      "position": "Administrative Assistant IV",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-10-20T08:04:33Z"
+   },
+   {
+      "company": "Wordpedia",
+      "position": "GIS Technical Architect",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-07-26T17:36:40Z"
+   },
+   {
+      "company": "Rooxo",
+      "position": "Biostatistician III",
+      "jobLocation": "San Francisco, CA",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-02-20T15:27:16Z"
+   },
+   {
+      "company": "Yabox",
+      "position": "Help Desk Technician",
+      "jobLocation": "Santa Barbara, CA",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-10-16T08:11:14Z"
+   },
+   {
+      "company": "Realbridge",
+      "position": "Marketing Assistant",
+      "jobLocation": "Santa Barbara, CA",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-09-13T09:54:55Z"
+   },
+   {
+      "company": "Vidoo",
+      "position": "Pharmacist",
+      "jobLocation": "Santa Barbara, CA",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-02-26T22:39:07Z"
+   },
+   {
+      "company": "Realbuzz",
+      "position": "Dental Hygienist",
+      "jobLocation": "Santa Barbara, CA",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-08-17T14:47:00Z"
+   },
+   {
+      "company": "Agivu",
+      "position": "General Manager",
+      "jobLocation": "Santa Barbara, CA",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-04-02T15:25:12Z"
+   },
+   {
+      "company": "Realfire",
+      "position": "Accounting Assistant IV",
+      "jobLocation": "Santa Barbara, CA",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-05-11T00:19:14Z"
+   },
+   {
+      "company": "Einti",
+      "position": "Director of Sales",
+      "jobLocation": "Santa Barbara, CA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-12-25T03:01:23Z"
+   },
+   {
+      "company": "Shuffletag",
+      "position": "Accountant I",
+      "jobLocation": "Santa Barbara, CA",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2022-02-14T00:32:28Z"
+   },
+   {
+      "company": "Vinte",
+      "position": "Senior Developer",
+      "jobLocation": "Berkeley, CA",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-03-17T07:16:28Z"
+   },
+   {
+      "company": "Kazu",
+      "position": "Financial Advisor",
+      "jobLocation": "Berkeley, CA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-07-04T12:58:21Z"
+   },
+   {
+      "company": "Agivu",
+      "position": "Structural Analysis Engineer",
+      "jobLocation": "Berkeley, CA",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2022-03-04T08:36:35Z"
+   },
+   {
+      "company": "Voonder",
+      "position": "VP Accounting",
+      "jobLocation": "Berkeley, CA",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-04-19T12:33:40Z"
+   },
+   {
+      "company": "Skibox",
+      "position": "Product Engineer",
+      "jobLocation": "Berkeley, CA",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-10-28T17:14:58Z"
+   },
+   {
+      "company": "Twinder",
+      "position": "Sales Representative",
+      "jobLocation": "Berkeley, CA",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-06-14T22:00:35Z"
+   },
+   {
+      "company": "Meemm",
+      "position": "Information Systems Manager",
+      "jobLocation": "Berkeley, CA",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-06-07T14:31:27Z"
+   },
+   {
+      "company": "Eidel",
+      "position": "Electrical Engineer",
+      "jobLocation": "Berkeley, CA",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2022-02-14T06:08:57Z"
+   },
+   {
+      "company": "Jaxbean",
+      "position": "Physical Therapy Assistant",
+      "jobLocation": "Las Vegas, NV",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-11-18T19:14:24Z"
+   },
+   {
+      "company": "Topdrive",
+      "position": "Actuary",
+      "jobLocation": "Las Vegas, NV",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-06-21T18:20:29Z"
+   },
+   {
+      "company": "Vitz",
+      "position": "Health Coach IV",
+      "jobLocation": "Las Vegas, NV",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-10-31T17:46:40Z"
+   },
+   {
+      "company": "Oodoo",
+      "position": "Social Worker",
+      "jobLocation": "Las Vegas, NV",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-02-24T20:14:22Z"
+   },
+   {
+      "company": "Aimbu",
+      "position": "Teacher",
+      "jobLocation": "Las Vegas, NV",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-11-08T20:29:18Z"
+   },
+   {
+      "company": "Tazzy",
+      "position": "Senior Editor",
+      "jobLocation": "Las Vegas, NV",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-11-10T20:26:37Z"
+   },
+   {
+      "company": "Eire",
+      "position": "Staff Accountant III",
+      "jobLocation": "Las Vegas, NV",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-10-09T02:52:24Z"
+   },
+   {
+      "company": "Voonte",
+      "position": "Software Consultant",
+      "jobLocation": "Seattle, WA",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-12-12T23:57:45Z"
+   },
+   {
+      "company": "Tagchat",
+      "position": "Environmental Tech",
+      "jobLocation": "Seattle, WA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-08-08T18:28:11Z"
+   },
+   {
+      "company": "LiveZ",
+      "position": "Nuclear Power Engineer",
+      "jobLocation": "Seattle, WA",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-09-07T11:21:15Z"
+   },
+   {
+      "company": "Shuffledrive",
+      "position": "Design Engineer",
+      "jobLocation": "Seattle, WA",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-03-20T18:45:00Z"
+   },
+   {
+      "company": "Pixope",
+      "position": "Paralegal",
+      "jobLocation": "Seattle, WA",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-06-24T02:00:57Z"
+   },
+   {
+      "company": "Yodel",
+      "position": "Quality Engineer",
+      "jobLocation": "Seattle, WA",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-10-10T19:23:37Z"
+   },
+   {
+      "company": "Rhynyx",
+      "position": "Accounting Assistant IV",
+      "jobLocation": "Washington, DC",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-07-08T08:00:40Z"
+   },
+   {
+      "company": "Thoughtblab",
+      "position": "Engineer I",
+      "jobLocation": "Washington, DC",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-11-29T13:53:04Z"
+   },
+   {
+      "company": "Rhycero",
+      "position": "Marketing Assistant",
+      "jobLocation": "Washington, DC",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-06-16T22:19:01Z"
+   },
+   {
+      "company": "Dynabox",
+      "position": "Administrative Officer",
+      "jobLocation": "Washington, DC",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-12-15T19:48:13Z"
+   },
+   {
+      "company": "DabZ",
+      "position": "Physical Therapy Assistant",
+      "jobLocation": "Washington, DC",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-04-03T03:13:36Z"
+   },
+   {
+      "company": "Zoomcast",
+      "position": "Safety Technician III",
+      "jobLocation": "Washington, DC",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2022-01-17T16:56:25Z"
+   },
+   {
+      "company": "Zoomzone",
+      "position": "Safety Technician II",
+      "jobLocation": "Washington, DC",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2022-02-01T03:20:41Z"
+   },
+   {
+      "company": "Skyvu",
+      "position": "Safety Technician IV",
+      "jobLocation": "Washington, DC",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-06-24T02:05:29Z"
+   },
+   {
+      "company": "Kwimbee",
+      "position": "Product Engineer",
+      "jobLocation": "Washington, DC",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-04-09T00:32:00Z"
+   },
+   {
+      "company": "Skyba",
+      "position": "Structural Analysis Engineer",
+      "jobLocation": "Washington, DC",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-09-15T10:28:53Z"
+   },
+   {
+      "company": "Voonder",
+      "position": "Senior Cost Accountant",
+      "jobLocation": "Washington, DC",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-05-25T22:42:57Z"
+   },
+   {
+      "company": "Blogtags",
+      "position": "Chief Design Engineer",
+      "jobLocation": "San Diego, CA",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-05-31T12:39:13Z"
+   },
+   {
+      "company": "Mydeo",
+      "position": "Chemical Engineer",
+      "jobLocation": "San Diego, CA",
+      "jobType": "remote",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-05-04T20:37:47Z"
+   },
+   {
+      "company": "Tambee",
+      "position": "Mechanical Systems Engineer",
+      "jobLocation": "San Diego, CA",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-10-06T04:14:37Z"
+   },
+   {
+      "company": "Shufflester",
+      "position": "Help Desk Technician",
+      "jobLocation": "San Diego, CA",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-10-08T15:16:48Z"
+   },
+   {
+      "company": "Topicblab",
+      "position": "Software Test Engineer IV",
+      "jobLocation": "San Diego, CA",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2022-02-09T11:47:45Z"
+   },
+   {
+      "company": "Gigabox",
+      "position": "Nurse",
+      "jobLocation": "San Diego, CA",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2022-01-31T05:05:02Z"
+   },
+   {
+      "company": "Kanoodle",
+      "position": "Professor",
+      "jobLocation": "Berkeley, CA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-11-14T07:29:08Z"
+   },
+   {
+      "company": "Muxo",
+      "position": "Research Nurse",
+      "jobLocation": "San Diego, CA",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-06-19T22:20:52Z"
+   },
+   {
+      "company": "Wikivu",
+      "position": "Data Coordiator",
+      "jobLocation": "San Diego, CA",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2022-02-20T06:15:46Z"
+   },
+   {
+      "company": "Oyope",
+      "position": "Technical Writer",
+      "jobLocation": "San Diego, CA",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2021-09-05T10:46:22Z"
+   },
+   {
+      "company": "Roombo",
+      "position": "Developer I",
+      "jobLocation": "San Diego, CA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-09-02T09:18:34Z"
+   },
+   {
+      "company": "Skajo",
+      "position": "Nurse Practicioner",
+      "jobLocation": "San Diego, CA",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fdd981c8d61c1d1e6a2b6",
+      "createdAt": "2020-07-05T10:57:47Z"
+   },
+      {
+      "company": "Feedmix",
+      "position": "Programmer II",
+      "jobLocation": "Tallahatchie, MS",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2022-02-18T13:48:57Z"
+   },
+   {
+      "company": "Dabtype",
+      "position": "Environmental Tech",
+      "jobLocation": "Tallahatchie, MS",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-05-23T19:46:08Z"
+   },
+   {
+      "company": "Vitz",
+      "position": "Senior Quality Engineer",
+      "jobLocation": "Tallahatchie, MS",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-08-17T11:07:13Z"
+   },
+   {
+      "company": "Tagpad",
+      "position": "Tax Accountant",
+      "jobLocation": "Tallahatchie, MS",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-08-17T04:14:25Z"
+   },
+   {
+      "company": "Skidoo",
+      "position": "Account Executive",
+      "jobLocation": "Tallahatchie, MS",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-12-26T16:32:32Z"
+   },
+   {
+      "company": "Vimbo",
+      "position": "Electrical Engineer",
+      "jobLocation": "Olive Branch, MS",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-11-18T14:02:46Z"
+   },
+   {
+      "company": "Mydo",
+      "position": "Structural Engineer",
+      "jobLocation": "Olive Branch, MS",
+      "jobType": "full-time",
+      "status": "interview",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-05-21T02:32:31Z"
+   },
+   {
+      "company": "Devpoint",
+      "position": "Dental Hygienist",
+      "jobLocation": "Olive Branch, MS",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-07-28T17:52:59Z"
+   },
+   {
+      "company": "Flipbug",
+      "position": "VP Quality Control",
+      "jobLocation": "Southhaven, MS",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-03-25T19:27:30Z"
+   },
+   {
+      "company": "Abata",
+      "position": "Project Manager",
+      "jobLocation": "Southhaven, MS",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-11-22T13:04:09Z"
+   },
+   {
+      "company": "Browsezoom",
+      "position": "Physical Therapy Assistant",
+      "jobLocation": "Memphis, TN",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-06-25T08:30:29Z"
+   },
+   {
+      "company": "Yakidoo",
+      "position": "Accountant IV",
+      "jobLocation": "Memphis, TN",
+      "jobType": "full-time",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-06-05T00:31:34Z"
+   },
+   {
+      "company": "Trunyx",
+      "position": "Budget/Accounting Analyst II",
+      "jobLocation": "Memphis, TN",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-10-11T03:58:13Z"
+   },
+   {
+      "company": "Devpulse",
+      "position": "Database Administrator III",
+      "jobLocation": "Memphis, TN",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-08-27T05:50:02Z"
+   },
+   {
+      "company": "Twitterworks",
+      "position": "Business Systems Development Analyst",
+      "jobLocation": "Memphis, TN",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-06-08T02:13:50Z"
+   },
+   {
+      "company": "Janyx",
+      "position": "Web Designer I",
+      "jobLocation": "Memphis, TN",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-09-13T14:58:39Z"
+   },
+   {
+      "company": "Topdrive",
+      "position": "General Manager",
+      "jobLocation": "Memphis, TN",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-06-18T08:56:35Z"
+   },
+   {
+      "company": "Jaxspan",
+      "position": "Actuary",
+      "jobLocation": "Memphis, TN",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-09-09T12:43:01Z"
+   },
+   {
+      "company": "Layo",
+      "position": "Senior Financial Analyst",
+      "jobLocation": "Nashville, TN",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-04-15T22:55:19Z"
+   },
+   {
+      "company": "Jabbercube",
+      "position": "Structural Analysis Engineer",
+      "jobLocation": "Nashville, TN",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-12-22T19:14:12Z"
+   },
+   {
+      "company": "Shuffletag",
+      "position": "Financial Advisor",
+      "jobLocation": "Nashville, TN",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-10-18T03:28:15Z"
+   },
+   {
+      "company": "Oyoba",
+      "position": "Speech Pathologist",
+      "jobLocation": "Nashville, TN",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-09-18T11:12:57Z"
+   },
+   {
+      "company": "Tagcat",
+      "position": "Actuary",
+      "jobLocation": "Nashville, TN",
+      "jobType": "internship",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-04-28T14:54:55Z"
+   },
+   {
+      "company": "Pixoboo",
+      "position": "Pharmacist",
+      "jobLocation": "Nashville, TN",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-06-09T07:27:22Z"
+   },
+   {
+      "company": "Yabox",
+      "position": "Data Coordiator",
+      "jobLocation": "Nashville, TN",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-03-28T12:20:27Z"
+   },
+   {
+      "company": "Topicware",
+      "position": "GIS Technical Architect",
+      "jobLocation": "Nashville, TN",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-10-18T02:56:37Z"
+   },
+   {
+      "company": "Roombo",
+      "position": "Safety Technician III",
+      "jobLocation": "Florence, AL",
+      "jobType": "remote",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-08-09T08:55:11Z"
+   },
+   {
+      "company": "Yakidoo",
+      "position": "Marketing Assistant",
+      "jobLocation": "Florence, AL",
+      "jobType": "internship",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-06-19T00:28:38Z"
+   },
+   {
+      "company": "Zoomcast",
+      "position": "VP Sales",
+      "jobLocation": "Florence, AL",
+      "jobType": "full-time",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2022-02-18T03:25:49Z"
+   },
+   {
+      "company": "Centidel",
+      "position": "Junior Executive",
+      "jobLocation": "Florence, AL",
+      "jobType": "part-time",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-11-12T12:15:09Z"
+   },
+   {
+      "company": "Skilith",
+      "position": "Technical Writer",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "part-time",
+      "status": "interview",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-04-15T16:53:18Z"
+   },
+   {
+      "company": "Demivee",
+      "position": "Assistant Manager",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "part-time",
+      "status": "declined",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2022-01-18T22:23:13Z"
+   },
+   {
+      "company": "Zoozzy",
+      "position": "Nuclear Power Engineer",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "internship",
+      "status": "interview",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-12-20T17:53:01Z"
+   },
+   {
+      "company": "Demivee",
+      "position": "Internal Auditor",
+      "jobLocation": "Birmingham, AL",
+      "jobType": "remote",
+      "status": "pending",
+      "createdBy": "621fde061c8d61c1d1e6a2b9",
+      "createdAt": "2021-06-30T11:45:09Z"
+   }
+]
