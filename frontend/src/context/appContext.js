@@ -1,4 +1,4 @@
-import React, { useState, useReducer, useContext } from 'react';
+import React, { useReducer, useContext } from 'react';
 import axios from 'axios';
 import reducer from './reducer';
 
@@ -62,6 +62,11 @@ const initialState = {
 	page: 1,
 	stats: {},
 	monthlyApplications: [],
+	search: '',
+	searchStatus: 'all',
+	searchType: 'all',
+	sort: 'latest',
+	sortOptions: ['latest', 'oldest', 'a-z', 'z-a'],
 };
 
 const AppContext = React.createContext();
@@ -226,8 +231,11 @@ const AppProvider = ({ children }) => {
 	const getJobs = async () => {
 		const { page, search, searchStatus, searchType, sort } = state;
 
-		let url = `/jobs`;
-		
+		let url = `/jobs?status=${searchStatus}&jobType=${searchType}&sort=${sort}`;
+
+		if (search) {
+			url = url + `&search=${search}`;
+		}
 		dispatch({ type: GET_JOBS_BEGIN });
 		try {
 			const { data } = await authFetch(url);
@@ -241,9 +249,8 @@ const AppProvider = ({ children }) => {
 				},
 			});
 		} catch (error) {
-			console.log(error.response)
+			console.log(error.response);
 			// logoutUser();
-
 		}
 		clearAlert();
 	};
@@ -251,7 +258,7 @@ const AppProvider = ({ children }) => {
 	const setEditJob = id => {
 		dispatch({ type: SET_EDIT_JOB, payload: { id } });
 	};
-	
+
 	const editJob = async () => {
 		dispatch({ type: EDIT_JOB_BEGIN });
 
@@ -266,7 +273,6 @@ const AppProvider = ({ children }) => {
 			});
 			dispatch({ type: EDIT_JOB_SUCCESS });
 			dispatch({ type: CLEAR_VALUES });
-			
 		} catch (error) {
 			if (error.response.status === 401) return;
 			dispatch({
@@ -282,9 +288,8 @@ const AppProvider = ({ children }) => {
 		try {
 			await authFetch.delete(`/jobs/${jobId}`);
 			getJobs();
-
 		} catch (error) {
-			console.log(`error: ${error}`)
+			console.log(`error: ${error}`);
 			// logoutUser();
 		}
 	};
@@ -301,10 +306,16 @@ const AppProvider = ({ children }) => {
 				},
 			});
 		} catch (error) {
-			console.log(error.response)
+			console.log(error.response);
 			// logoutUser();
 		}
 		clearAlert();
+	};
+	const clearFilters = () => {
+		dispatch({ type: CLEAR_FILTERS });
+	};
+	const changePage = page => {
+		dispatch({ type: CHANGE_PAGE, payload: { page } });
 	};
 
 	return (
@@ -324,14 +335,15 @@ const AppProvider = ({ children }) => {
 				setEditJob,
 				deleteJob,
 				editJob,
-				showStats 
+				showStats,
+				clearFilters,
+				changePage
 			}}
 		>
 			{children}
 		</AppContext.Provider>
 	);
 };
-
 
 const useAppContext = () => {
 	return useContext(AppContext);

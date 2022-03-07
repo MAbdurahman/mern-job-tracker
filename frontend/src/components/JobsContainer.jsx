@@ -6,13 +6,24 @@ import Job from './Job';
 
 export default function JobsContainer() {
 	//**************** variables ****************//
-	const { getJobs, jobs, isLoading, page, totalJobs } = useAppContext();
+	const {
+		getJobs,
+		jobs,
+		isLoading,
+		page,
+		totalJobs,
+		search,
+		searchStatus,
+		searchType,
+		sort,
+		numOfPages,
+	} = useAppContext();
 
 	//**************** functions ****************//
 	useEffect(() => {
 		getJobs();
 		// eslint-disable-next-line
-	}, [page]);
+	}, [page, search, searchStatus, searchType, sort]);
 
    if (isLoading) {
 		return <Loading center />;

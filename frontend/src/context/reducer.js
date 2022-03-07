@@ -254,6 +254,18 @@ const reducer = (state, action) => {
 			monthlyApplications: action.payload.monthlyApplications,
 		};
 	}
+	if (action.type === CLEAR_FILTERS) {
+		return {
+			...state,
+			search: '',
+			searchStatus: 'all',
+			searchType: 'all',
+			sort: 'latest',
+		};
+	}
+	if (action.type === CHANGE_PAGE) {
+		return { ...state, page: action.payload.page };
+	}
 
 	throw new Error(`No Such Action: ${action.type}`);
 };
