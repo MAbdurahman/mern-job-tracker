@@ -231,7 +231,7 @@ const AppProvider = ({ children }) => {
 	const getJobs = async () => {
 		const { page, search, searchStatus, searchType, sort } = state;
 
-		let url = `/jobs?status=${searchStatus}&jobType=${searchType}&sort=${sort}`;
+		let url = `/jobs?page=${page}&status=${searchStatus}&jobType=${searchType}&sort=${sort}`;
 
 		if (search) {
 			url = url + `&search=${search}`;
@@ -249,8 +249,7 @@ const AppProvider = ({ children }) => {
 				},
 			});
 		} catch (error) {
-			console.log(error.response);
-			// logoutUser();
+			logoutUser();
 		}
 		clearAlert();
 	};
@@ -289,8 +288,8 @@ const AppProvider = ({ children }) => {
 			await authFetch.delete(`/jobs/${jobId}`);
 			getJobs();
 		} catch (error) {
-			console.log(`error: ${error}`);
-			// logoutUser();
+			logoutUser();
+
 		}
 	};
 
@@ -306,8 +305,8 @@ const AppProvider = ({ children }) => {
 				},
 			});
 		} catch (error) {
-			console.log(error.response);
-			// logoutUser();
+			logoutUser();
+			
 		}
 		clearAlert();
 	};
@@ -337,7 +336,7 @@ const AppProvider = ({ children }) => {
 				editJob,
 				showStats,
 				clearFilters,
-				changePage
+				changePage,
 			}}
 		>
 			{children}

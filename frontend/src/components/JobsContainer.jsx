@@ -3,6 +3,7 @@ import { useAppContext } from '../context/appContext';
 import Wrapper from '../assets/wrappers/JobsContainer';
 import Loading from './Loading';
 import Job from './Job';
+import PageButtonContainer from './PageButtonContainer';
 
 export default function JobsContainer() {
 	//**************** variables ****************//
@@ -46,6 +47,7 @@ export default function JobsContainer() {
 					return <Job key={job._id} {...job} />;
 				})}
 			</div>
+			{numOfPages > 1 && <PageButtonContainer />}
 		</Wrapper>
 	);
 }
